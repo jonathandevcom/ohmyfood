@@ -1,0 +1,113 @@
+#body_index {
+  margin: 0 10% 0 10%;
+}
+#body_index section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5%;
+}
+#body_index section .menu_accueil {
+  text-align: center;
+  width: 400px;
+  margin: 4%;
+  padding-top: 175px;
+  padding-bottom: 175px;
+  box-shadow: -2px 2px 15px 1px rgba(0, 0, 0, 0.5);
+}
+#body_index section .la_note_enchantee {
+  background-color: #fcdfdb;
+  font: bold 1.7em "Caveat", cursive;
+}
+#body_index section .la_note_enchantee .fas fa-music {
+  color: red;
+}
+#body_index section .le_chic_a_la_francaise {
+  background-color: rgb 255, 245, 254;
+  font: 1.5em "Merienda One", cursive;
+}
+
+header {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 2em;
+  background-color: #579c87;
+  text-align: center;
+  padding: 0.5%;
+  margin: 0 10% 0 10%;
+}
+header .retour_index {
+  color: #fdcb46;
+  text-decoration: none;
+}
+
+footer {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 2em;
+  background-color: #579c87;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-content: space-between;
+  width: 79%;
+  margin: 0 10% 0 10%;
+}
+footer a {
+  color: #fdcb46;
+  text-decoration: none;
+}
+footer .mentions {
+  padding-left: 20px;
+}
+footer .contact {
+  padding-right: 20px;
+}
+
+.background_color_la_note_enchatee {
+  background-color: #fcdfdb;
+  margin: 0 10% 0 10%;
+  padding: 5%;
+  font-family: "Caveat", cursive;
+  font-family: "Merienda One", cursive;
+}
+
+.h1_LNE {
+  text-align: center;
+  font-size: 2em;
+}
+
+.left {
+  text-align: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+}
+
+.h3-line {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.img_left {
+  padding: 0;
+  margin: 0;
+}
+
+.img_right {
+  padding-right: 0;
+}
+
+.titre_center {
+  padding-top: 1.5%;
+  flex-basis: 30%;
+  text-align: center;
+}
+
+#end {
+  padding-bottom: 10%;
+}
+
+/*# sourceMappingURL=style.css.map */

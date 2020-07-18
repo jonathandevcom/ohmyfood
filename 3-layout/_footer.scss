@@ -1,0 +1,27 @@
+﻿footer {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2em;
+    background-color: $header-footer-color;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+   
+    align-content:space-between;
+    width:79%; 
+    margin: 0 10% 0 10%;
+
+    a {
+        color: $header-footer-font-color;
+        text-decoration: none;
+    }
+
+    .mentions {
+        padding-left: 20px;
+    }
+
+    .contact {
+        padding-right: 20px;
+
+
+    }
+}

@@ -1,0 +1,37 @@
+﻿$background-la-note-enchantee: rgb(252,223,219);
+$background-le-chic-a-la-francaise: rgb (255,245,254);
+
+#body_index {
+    margin: 0 10% 0 10%;
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5%;
+
+
+        .menu_accueil {
+            text-align: center;
+            width: 400px;
+            margin: 4%;
+            padding-top: 175px;
+            padding-bottom: 175px;
+            box-shadow: -2px 2px 15px 1px rgba(0,0,0,0.50);
+        }
+
+        .la_note_enchantee {
+            background-color: $background-la-note-enchantee;
+            font: bold 1.7em 'Caveat', cursive;
+                .fas fa-music{
+                    color:red;
+                } 
+        }
+
+        .le_chic_a_la_francaise {
+            background-color: $background-le-chic-a-la-francaise;
+            font: 1.5em 'Merienda One', cursive;
+            
+        }
+    }
+}
