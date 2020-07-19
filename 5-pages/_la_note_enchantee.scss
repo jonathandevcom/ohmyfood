@@ -1,50 +1,73 @@
 ﻿$background-la-note-enchantee: rgb(252,223,219);
 
-.background_color_la_note_enchatee {
-    background-color: $background-la-note-enchantee;
-    margin: 0 10% 0 10%;
-    padding: 5%;
-    font-family: 'Caveat', cursive;
-    font-family: 'Merienda One', cursive;
-}
+.container {
+    margin: 0 10% 10% 10%;
+    text-align: center;
+    font-size:0.9em;
 
-.h1_LNE{
-    text-align:center;
-    font-size:2em;
-}
+    .titre {
+        font-size:1.5em;
+    }
 
-.left{
-    text-align:left;
-    clear:both;
-}
-.right{
-   float: right;
-}
+    .background_color_la_note_enchatee {
+        background-color: $background-la-note-enchantee;
+        margin: 0 10% 0 10%;
+        padding: 5%;
+        font-family: 'Caveat', cursive;
+        font-family: 'Merienda One', cursive;
+    }
+
+    .h1_LNE {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .left {
+        text-align: left;
+        clear: both;
+    }
+
+    .right {
+        float: right;
+        clear: both;
+    }
+
+    .line {
+        display: flex;
 
 
-.h3-line {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-   }
+        .line_left {
+            background-color: black;
+            clip-path: polygon(0 62%, 26% 57%, 73% 59%, 89% 57%, 100% 56%, 99% 46%, 81% 44%, 31% 44%, 3% 42%);
+            width: 30%;
+        }
 
-.img_left {
-    padding: 0;
-    margin: 0;
+        .titre_center1 {
+            text-align: center;
+            padding-left: 15%;
+            padding-right: 15%;
+            font-size: 1em;
 
-}
-.img_right {
-   padding-right:0;
-}
+        }
 
-.titre_center{
-    padding-top:1.5%;
-     flex-basis:30%;
-     text-align:center;
-    
-}
+        .titre_center2 {
+            padding-left: 12%;
+            padding-right: 12%;
+            font-size: 1em;
+        }
 
-#end{
-    padding-bottom: 10%;
+        .titre_center3 {
+            padding-left: 10%;
+            padding-right: 10%;
+            font-size: 1em;
+        }
+
+        .line_right {
+            background-color: black;
+            clip-path: polygon(0 59%, 46% 61%, 79% 60%, 100% 56%, 95% 46%, 28% 43%, 0 44%);
+            width: 30%;
+            text-align: end;
+        }
+    }
 }
+ 

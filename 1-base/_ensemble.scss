@@ -1,37 +1,137 @@
 ﻿$background-la-note-enchantee: rgb(252,223,219);
 $background-le-chic-a-la-francaise: rgb (255,245,254);
+$header-footer-font-color: rgb(253,203,70);
+$header-footer-color: rgb(87,156,135);
+
+@-webkit-keyframes dot {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes dot {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 #body_index {
-    margin: 0 10% 0 10%;
+    margin: 4% 10% 12% 10%;
 
     section {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        padding: 5%;
+        justify-content: space-around;
+        text-align: center;
+        margin: 5%;
+        text-decoration: none;
 
 
         .menu_accueil {
-            text-align: center;
-            width: 400px;
-            margin: 4%;
-            padding-top: 175px;
-            padding-bottom: 175px;
+            margin: 5%;
+            min-width: 450px;
+            max-width: 450px;
+            min-height: 600px;
+            max-height: 600px;
             box-shadow: -2px 2px 15px 1px rgba(0,0,0,0.50);
-        }
-
-        .la_note_enchantee {
-            background-color: $background-la-note-enchantee;
-            font: bold 1.7em 'Caveat', cursive;
-                .fas fa-music{
-                    color:red;
-                } 
-        }
-
-        .le_chic_a_la_francaise {
-            background-color: $background-le-chic-a-la-francaise;
-            font: 1.5em 'Merienda One', cursive;
-            
+            border: 1px solid rgb(241,241,241);
+            display: flex;
+            flex-direction: column;
         }
     }
+
+    .la_note_enchantee {
+        background-color: $background-la-note-enchantee;
+        color: rgb(60,18,24);
+        font: bold 1.7em 'Caveat', cursive;
+        justify-content: center;
+
+
+        .fas fa-music {
+            background: linear-gradient(to right, #f04a5e 0%, #f8a183 100%);
+        }
+    }
+
+    .le_chic_a_la_francaise {
+        background-color: $background-le-chic-a-la-francaise;
+        font: 1.5em 'Merienda One', cursive;
+        justify-content: center;
+
+        #h3 {
+            color: linear-gradient(to bottom right, #d8852e 0%, #905bfd 100%);
+        }
+    }
+
+    .le_delice_des_papilles {
+        font-family: 'Dancing Script', cursive;
+        justify-content: center;
+    }
+
+    .la_palette_du_gout {
+        font-family: 'Merienda One', cursive;
+        justify-content: center;
+    }
+
+    .font_menu {
+        font-family: 'Caveat', cursive;
+    }
+}
+
+    .button {
+        background-color: $header-footer-color;
+        color: $header-footer-font-color;
+        font-size: 2em;
+        text-align: center;
+        width: 300px;
+        height: 45px;
+        margin: auto;
+        border-radius: 5px;
+
+        .one {
+            opacity: 0;
+            -webkit-animation: dot 2s infinite;
+            -webkit-animation-delay: 0.0s;
+            animation: dot 1.3s infinite;
+            animation-delay: 0.0s;
+        }
+
+        .two {
+            opacity: 0;
+            -webkit-animation: dot 2s infinite;
+            -webkit-animation-delay: 0.2s;
+            animation: dot 1.3s infinite;
+            animation-delay: 0.3s;
+        }
+
+        .three {
+            opacity: 0;
+            -webkit-animation: dot 2s infinite;
+            -webkit-animation-delay: 0.3s;
+            animation: dot 1.3s infinite;
+            animation-delay: 0.6s;
+        }
+    }
+
+.fa-music {
+    font-size:2em;
+    background: -webkit-linear-gradient(0deg,#F04A5E, #F8A183);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   }
+
+a {
+    text-decoration: none;
+    color:none;
 }

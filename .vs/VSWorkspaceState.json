@@ -4,8 +4,13 @@
     "\\1-base",
     "\\2-utils",
     "\\3-layout",
+    "\\4_components",
+    "\\5-pages",
+    "\\6-themes",
+    "\\7-vendors",
+    "\\images",
     "\\pages-annexes"
   ],
-  "SelectedNode": "\\2-utils\\_variables.scss",
+  "SelectedNode": "\\3-layout\\_header.scss",
   "PreviewInSolutionExplorer": false
 }

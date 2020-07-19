@@ -1,30 +1,118 @@
+@-webkit-keyframes dot {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes dot {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 #body_index {
-  margin: 0 10% 0 10%;
+  margin: 4% 10% 12% 10%;
 }
 #body_index section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  padding: 5%;
+  justify-content: space-around;
+  text-align: center;
+  margin: 5%;
+  text-decoration: none;
 }
 #body_index section .menu_accueil {
-  text-align: center;
-  width: 400px;
-  margin: 4%;
-  padding-top: 175px;
-  padding-bottom: 175px;
+  margin: 5%;
+  min-width: 450px;
+  max-width: 450px;
+  min-height: 600px;
+  max-height: 600px;
   box-shadow: -2px 2px 15px 1px rgba(0, 0, 0, 0.5);
+  border: 1px solid #f1f1f1;
+  display: flex;
+  flex-direction: column;
 }
-#body_index section .la_note_enchantee {
+#body_index .la_note_enchantee {
   background-color: #fcdfdb;
+  color: #3c1218;
   font: bold 1.7em "Caveat", cursive;
+  justify-content: center;
 }
-#body_index section .la_note_enchantee .fas fa-music {
-  color: red;
+#body_index .la_note_enchantee .fas fa-music {
+  background: linear-gradient(to right, #f04a5e 0%, #f8a183 100%);
 }
-#body_index section .le_chic_a_la_francaise {
+#body_index .le_chic_a_la_francaise {
   background-color: rgb 255, 245, 254;
   font: 1.5em "Merienda One", cursive;
+  justify-content: center;
+}
+#body_index .le_chic_a_la_francaise #h3 {
+  color: linear-gradient(to bottom right, #d8852e 0%, #905bfd 100%);
+}
+#body_index .le_delice_des_papilles {
+  font-family: "Dancing Script", cursive;
+  justify-content: center;
+}
+#body_index .la_palette_du_gout {
+  font-family: "Merienda One", cursive;
+  justify-content: center;
+}
+#body_index .font_menu {
+  font-family: "Caveat", cursive;
+}
+
+.button {
+  background-color: #579c87;
+  color: #fdcb46;
+  font-size: 2em;
+  text-align: center;
+  width: 300px;
+  height: 45px;
+  margin: auto;
+  border-radius: 5px;
+}
+.button .one {
+  opacity: 0;
+  -webkit-animation: dot 2s infinite;
+  -webkit-animation-delay: 0s;
+  animation: dot 1.3s infinite;
+  animation-delay: 0s;
+}
+.button .two {
+  opacity: 0;
+  -webkit-animation: dot 2s infinite;
+  -webkit-animation-delay: 0.2s;
+  animation: dot 1.3s infinite;
+  animation-delay: 0.3s;
+}
+.button .three {
+  opacity: 0;
+  -webkit-animation: dot 2s infinite;
+  -webkit-animation-delay: 0.3s;
+  animation: dot 1.3s infinite;
+  animation-delay: 0.6s;
+}
+
+.fa-music {
+  font-size: 2em;
+  background: -webkit-linear-gradient(0deg, #F04A5E, #F8A183);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: none;
 }
 
 header {
@@ -57,57 +145,70 @@ footer a {
 }
 footer .mentions {
   padding-left: 20px;
+  width: 50%;
 }
 footer .contact {
   padding-right: 20px;
+  width: 50%;
+  text-align: end;
 }
 
-.background_color_la_note_enchatee {
+.container {
+  margin: 0 10% 10% 10%;
+  text-align: center;
+  font-size: 0.9em;
+}
+.container .titre {
+  font-size: 1.5em;
+}
+.container .background_color_la_note_enchatee {
   background-color: #fcdfdb;
   margin: 0 10% 0 10%;
   padding: 5%;
   font-family: "Caveat", cursive;
   font-family: "Merienda One", cursive;
 }
-
-.h1_LNE {
+.container .h1_LNE {
   text-align: center;
-  font-size: 2em;
+  font-size: 1.5em;
 }
-
-.left {
+.container .left {
   text-align: left;
   clear: both;
 }
-
-.right {
+.container .right {
   float: right;
+  clear: both;
 }
-
-.h3-line {
+.container .line {
   display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
 }
-
-.img_left {
-  padding: 0;
-  margin: 0;
+.container .line .line_left {
+  background-color: black;
+  clip-path: polygon(0 62%, 26% 57%, 73% 59%, 89% 57%, 100% 56%, 99% 46%, 81% 44%, 31% 44%, 3% 42%);
+  width: 30%;
 }
-
-.img_right {
-  padding-right: 0;
-}
-
-.titre_center {
-  padding-top: 1.5%;
-  flex-basis: 30%;
+.container .line .titre_center1 {
   text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 1em;
 }
-
-#end {
-  padding-bottom: 10%;
+.container .line .titre_center2 {
+  padding-left: 12%;
+  padding-right: 12%;
+  font-size: 1em;
+}
+.container .line .titre_center3 {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1em;
+}
+.container .line .line_right {
+  background-color: black;
+  clip-path: polygon(0 59%, 46% 61%, 79% 60%, 100% 56%, 95% 46%, 28% 43%, 0 44%);
+  width: 30%;
+  text-align: end;
 }
 
 /*# sourceMappingURL=style.css.map */
