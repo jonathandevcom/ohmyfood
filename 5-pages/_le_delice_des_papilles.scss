@@ -1,0 +1,107 @@
+﻿.background_DP {
+    margin: 0 10% 0 10%;
+    padding: 5%;
+    font-family: 'Dancing Script', cursive;
+    font-size:1.2em;
+}
+
+.h1_DP {
+    text-align: center;
+    font-size: 1.6em;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(80,118,234);
+    background: linear-gradient(151deg, rgba(2,40,221,1) 0%, rgba(6,112,243,1) 50%, rgba(34,157,249,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+}
+
+.line_left_DP {
+    clip-path: polygon(98% 48%, 100% 52%, 14% 52%, 12% 52%, 9% 51%, 7% 50%, 4% 48%, 2% 45%, 0 41%, 3% 43%, 6% 45%, 9% 47%, 12% 48%, 14% 48%);
+    width: 25%;
+    
+}
+
+.line_right_DP {
+    clip-path: polygon(0 52%, 86% 52%, 88% 52%, 91% 51%, 93% 50%, 96% 48%, 98% 45%, 100% 41%, 97% 43%, 94% 45%, 91% 47%, 88% 48%, 86% 48%, 2% 48%);
+    width: 25%;
+}
+
+.line_color_1_DP {
+    background-color: rgb(2,40,221);
+}
+
+.line_color_2_DP {
+    background-color: rgb(6,112,243);
+}
+
+
+.line_color_3_DP {
+    background-color: rgb(34,157,249);
+}
+
+.titre_center1_DP {
+    position: relative;
+}
+
+.titre_center1_DP:before {
+    position: absolute;
+    left: -5px;
+    right: 5px;
+    content: '';
+    height: 0;
+    width: 0;
+    border-bottom: 5px solid transparent;
+}
+
+.titre_center1_DP:hover:before {
+    height: 80px;
+    width: 225px;
+    border-bottom: 5px solid rgb(2,40,221);
+    transition: width 0.5s linear 0.5s;
+}
+
+.titre_center2_DP {
+    position: relative;
+}
+
+.titre_center2_DP:before {
+    position: absolute;
+    left: -5px;
+    right: 5px;
+    content: '';
+    height: 0;
+    width: 0;
+    border-bottom: 5px solid transparent;
+}
+
+.titre_center2_DP:hover:before {
+    height: 80px;
+    width: 215px;
+    border-bottom: 5px solid rgb(6,112,243);
+    transition: width 0.5s linear 0.5s;
+}
+
+.titre_center3_DP {
+    position: relative;
+}
+
+.titre_center3_DP:before {
+    position: absolute;
+    left: -5px;
+    right: 5px;
+    content: '';
+    height: 0;
+    width: 0;
+    border-bottom: 5px solid transparent;
+}
+
+.titre_center3_DP:hover:before {
+    height: 80px;
+    width: 240px;
+    border-bottom: 5px solid rgb(34,157,249);
+    transition: width 0.5s linear 0.5s;
+}

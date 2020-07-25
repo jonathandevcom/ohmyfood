@@ -1,27 +1,54 @@
-﻿footer {
+﻿$header-footer-font-color: rgb(253,203,70);
+$header-footer-color: rgb(87,156,135);
+
+footer {
     font-family: 'Archivo Black', sans-serif;
     font-size: 2em;
     background-color: $header-footer-color;
     position: fixed;
     bottom: 0;
-    display: flex;
-    align-content: space-between;
-    width: 79%;
-    margin: 0 10% 0 10%;
+    display:inline-block;
+    width: 100%;
+    height:80px;
+    padding-top:40px;
+         
+    .button_footer{
+        display:flex; 
+        justify-content:space-between;
+        padding-left:40px;
+        padding-right:40px;
 
-    a {
-        color: $header-footer-font-color;
+    }
+
+    .effet {
         text-decoration: none;
+        color: $header-footer-font-color;
+        display:flex;
     }
 
-    .mentions {
-        padding-left: 20px;
-        width: 50%;
+    .effet:hover {
+        animation: wiggle 0.82s cubic-bezier(.36,.07,.19,.97) both;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        perspective: 1000px;
+    }
+        
+}
+
+@keyframes wiggle {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
     }
 
-    .contact {
-        padding-right: 20px;
-        width: 50%;
-        text-align:end;
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
     }
 }

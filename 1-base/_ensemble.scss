@@ -1,5 +1,4 @@
 ﻿$background-la-note-enchantee: rgb(252,223,219);
-$background-le-chic-a-la-francaise: rgb (255,245,254);
 $header-footer-font-color: rgb(253,203,70);
 $header-footer-color: rgb(87,156,135);
 
@@ -28,12 +27,13 @@ $header-footer-color: rgb(87,156,135);
 }
 
 #body_index {
-    margin: 4% 10% 12% 10%;
+    margin: 4% 11% 12% 11%;
+
 
     section {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
         text-align: center;
         margin: 5%;
         text-decoration: none;
@@ -52,40 +52,106 @@ $header-footer-color: rgb(87,156,135);
         }
     }
 
+    .fa-music {
+        width: 55px;
+        height: 55px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2em;
+        background: linear-gradient(to right, #f04a5e 0%, #f8a183 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
     .la_note_enchantee {
         background-color: $background-la-note-enchantee;
         color: rgb(60,18,24);
         font: bold 1.7em 'Caveat', cursive;
         justify-content: center;
 
-
-        .fas fa-music {
-            background: linear-gradient(to right, #f04a5e 0%, #f8a183 100%);
+        h2 {
+            font-family: 'Varela Round', sans-serif;
         }
     }
 
     .le_chic_a_la_francaise {
-        background-color: $background-le-chic-a-la-francaise;
         font: 1.5em 'Merienda One', cursive;
         justify-content: center;
 
-        #h3 {
-            color: linear-gradient(to bottom right, #d8852e 0%, #905bfd 100%);
+        h3 {
+            width: 320px;
+            margin-left: auto;
+            margin-right: auto;
+            background: rgb(216,133,46);
+            background: linear-gradient(151deg, rgba(216,133,46,1) 0%, rgba(218,184,183,1) 50%, rgba(144,91,253,1) 100%);
+            -webkit-background-clip: text;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            color: transparent;
+        }
+
+        h2 {
+            color: rgb(199,116,18);
+            font-family: 'Lora', serif;
         }
     }
 
     .le_delice_des_papilles {
-        font-family: 'Dancing Script', cursive;
+        font: 1.5em 'Dancing Script', cursive;
         justify-content: center;
+
+        h3 {
+            font-size: 1.7em;
+            width: 320px;
+            margin-left: auto;
+            margin-right: auto;
+            background: rgb(80,118,234);
+            background: linear-gradient(151deg, rgba(2,40,221,1) 0%, rgba(6,112,243,1) 50%, rgba(34,157,249,1) 100%);
+            -webkit-background-clip: text;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            color: transparent;
+        }
+
+        h2 {
+            font-family: 'Kalam', cursive;
+            font-weight: normal;
+            color: rgb(8,135,251);
+        }
     }
 
     .la_palette_du_gout {
-        font-family: 'Merienda One', cursive;
+        font: 1.5em 'Merienda One', cursive;
         justify-content: center;
+
+        h3 {
+            width: 320px;
+            margin-left: auto;
+            margin-right: auto;
+            background: rgb(61,147,57);
+            background: linear-gradient(115deg, rgba(61,147,57,1) 0%, rgba(174,225,147,1) 50%, rgba(191,255,126,1) 100%);
+            -webkit-background-clip: text;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            color: transparent;
+        }
+
+        h2 {
+            font-family: 'Kalam', cursive;
+            font-weight: normal;
+            color: rgb(114,191,86);
+        }
     }
 
     .font_menu {
         font-family: 'Caveat', cursive;
+    }
+}
+
+.effet:hover {
+    h2, h3, .fa-music {
+        transform: scale(1.25);
+        opacity: 0.5;
     }
 }
 
@@ -124,14 +190,14 @@ $header-footer-color: rgb(87,156,135);
         }
     }
 
-.fa-music {
-    font-size:2em;
-    background: -webkit-linear-gradient(0deg,#F04A5E, #F8A183);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+   .line {
+       width:110%;
+       display:flex;
+       margin-left:-5%;
+       margin-right:5%;
    }
 
 a {
-    text-decoration: none;
-    color:none;
+       text-decoration: none;
+
 }

@@ -1,0 +1,26 @@
+﻿.container {
+    margin: 0 10% 10% 10%;
+    text-align: center;
+    font-size: 1.3em;
+   
+
+    .titre {
+        font-size: 1.5em;
+    }
+      
+    .left {
+        text-align: left;
+        clear: both;
+    }
+
+    .right {
+        float: right;
+        clear: both;
+    }
+
+    .line {
+        display: flex;
+        justify-content: space-between;
+           }
+ }
+   

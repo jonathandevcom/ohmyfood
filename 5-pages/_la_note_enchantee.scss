@@ -1,73 +1,115 @@
 ﻿$background-la-note-enchantee: rgb(252,223,219);
 
-.container {
-    margin: 0 10% 10% 10%;
-    text-align: center;
-    font-size:0.9em;
 
-    .titre {
-        font-size:1.5em;
-    }
-
-    .background_color_la_note_enchatee {
-        background-color: $background-la-note-enchantee;
-        margin: 0 10% 0 10%;
-        padding: 5%;
-        font-family: 'Caveat', cursive;
-        font-family: 'Merienda One', cursive;
-    }
-
-    .h1_LNE {
+.background_color_la_note_enchatee {
+    background-color: $background-la-note-enchantee;
+    margin: 0 10% 0 10%;
+    padding: 5%;
+    font-family: 'Caveat', cursive; 
+    font-size:1.1em;
+    
+    .line {
+    width: 100%;
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+}
+    .h1_NE {
         text-align: center;
         font-size: 1.5em;
-    }
-
-    .left {
-        text-align: left;
-        clear: both;
-    }
-
-    .right {
-        float: right;
-        clear: both;
-    }
-
-    .line {
-        display: flex;
-
-
-        .line_left {
-            background-color: black;
-            clip-path: polygon(0 62%, 26% 57%, 73% 59%, 89% 57%, 100% 56%, 99% 46%, 81% 44%, 31% 44%, 3% 42%);
-            width: 30%;
-        }
-
-        .titre_center1 {
-            text-align: center;
-            padding-left: 15%;
-            padding-right: 15%;
-            font-size: 1em;
-
-        }
-
-        .titre_center2 {
-            padding-left: 12%;
-            padding-right: 12%;
-            font-size: 1em;
-        }
-
-        .titre_center3 {
-            padding-left: 10%;
-            padding-right: 10%;
-            font-size: 1em;
-        }
-
-        .line_right {
-            background-color: black;
-            clip-path: polygon(0 59%, 46% 61%, 79% 60%, 100% 56%, 95% 46%, 28% 43%, 0 44%);
-            width: 30%;
-            text-align: end;
-        }
-    }
+    }     
 }
- 
+
+    .line_left_NE {
+            background-color: black;
+            clip-path: polygon(1% 41%, 26% 43%, 61% 43%, 100% 43%, 99% 49%, 65% 49%, 26% 47%, 0 48%, );
+            width: 25%;
+        }
+
+    .line_right_NE {
+            background-color: black;
+            clip-path: polygon(0 42%, 40% 40%, 95% 43%, 99% 49%, 40% 48%, 0 48%, );
+            width: 25%;
+        }
+
+.last_title_NE {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+                   }
+
+    .fa-music {
+        font-size: 2em;
+        padding-top:25px;
+        padding-right: 30px;
+        background: linear-gradient(to right, #f04a5e 0%, #f8a183 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .titre_center1_NE {
+        font-size: 1.4em;
+        position: relative;
+    }
+
+    .titre_center1_NE:before {
+        position: absolute;
+        left: -5px;
+        right: 5px;
+        content: '';
+        height: 0;
+        width: 0;
+        border-bottom: 5px solid transparent;
+    }
+
+    .titre_center1_NE:hover:before {
+        height: 80px;
+        width: 105px;
+        border-bottom: 5px solid black;
+        transition: width 0.5s linear 0.5s;
+    }
+
+    .titre_center2_NE {
+        font-size: 1.4em;
+        position: relative;
+    }
+
+    .titre_center2_NE:before {
+        position: absolute;
+        left: -5px;
+        right: 5px;
+        content: '';
+        height: 0;
+        width: 0;
+        border-bottom: 5px solid transparent;
+    }
+
+    .titre_center2_NE:hover:before {
+        height: 80px;
+        width: 175px;
+        border-bottom: 5px solid black;
+        transition: width 0.5s linear 0.5s;
+    }
+
+    .titre_center3_NE {
+        font-size: 1.4em;
+        position: relative;
+    }
+
+    .titre_center3_NE:before {
+        position: absolute;
+        left: -5px;
+        right: 5px;
+        content: '';
+        height: 0;
+        width: 0;
+        border-bottom: 5px solid transparent;
+    }
+
+    .titre_center3_NE:hover:before {
+        height: 80px;
+        width: 225px;
+        border-bottom: 5px solid black;
+        transition: width 0.5s linear 0.5s;
+    }
+

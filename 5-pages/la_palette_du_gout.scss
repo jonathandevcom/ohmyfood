@@ -1,1 +1,107 @@
-﻿
+﻿.background_PG {
+    margin: 0 10% 0 10%;
+    padding: 5%;
+    font-family: 'Merienda One', cursive;
+    font-size: 1.2em;
+}
+
+.h1_PG {
+    text-align: center;
+    font-size: 1.3em;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(61,147,57);
+    background: linear-gradient(115deg, rgba(61,147,57,1) 0%, rgba(174,225,147,1) 50%, rgba(191,255,126,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+}
+
+.line_left_PG {
+    clip-path: polygon(0 47%, 1% 53%, 16% 54%, 38% 53%, 64% 54%, 78% 53%, 93% 54%, 100% 54%, 96% 51%, 100% 48%, 94% 48%, 79% 48%, 64% 47%, 51% 48%, 34% 46%, 20% 47%, 8% 46%);
+    width: 27%;
+
+}
+
+.line_right_PG {
+    clip-path: polygon(100% 47%, 92% 46%, 80% 47%, 66% 46%, 49% 48%, 36% 47%, 21% 48%, 6% 48%, 0 48%, 4% 51%, 0 54%, 7% 54%, 12% 53%, 36% 54%, 62% 53%, 84% 54%, 98% 53%);
+    width: 27%;
+}
+
+.line_color_1_PG {
+        background-color: rgb(2,40,221);
+}
+
+.line_color_2_PG {
+    background-color: rgb(6,112,243);
+}
+
+
+.line_color_3_PG {
+    background-color: rgb(34,157,249);
+}
+
+.titre_center1_PG {
+    position: relative;
+}
+
+.titre_center1_PG:before {
+    position: absolute;
+    left: -5px;
+    right: 5px;
+    content: '';
+    height: 0;
+    width: 0;
+    border-bottom: 5px solid transparent;
+}
+
+.titre_center1_PG:hover:before {
+    height: 80px;
+    width: 95px;
+    border-bottom: 5px solid black;
+    transition: width 0.5s linear 0.5s;
+}
+
+.titre_center2_PG {
+    position: relative;
+}
+
+.titre_center2_PG:before {
+    position: absolute;
+    left: -5px;
+    right: 5px;
+    content: '';
+    height: 0;
+    width: 0;
+    border-bottom: 5px solid transparent;
+}
+
+.titre_center2_PG:hover:before {
+    height: 80px;
+    width: 160px;
+    border-bottom: 5px solid black;
+    transition: width 0.5s linear 0.5s;
+}
+
+.titre_center3_PG {
+    position: relative;
+}
+
+.titre_center3_PG:before {
+    position: absolute;
+    left: -5px;
+    right: 5px;
+    content: '';
+    height: 0;
+    width: 0;
+    border-bottom: 5px solid transparent;
+}
+
+.titre_center3_PG:hover:before {
+    height: 80px;
+    width: 205px;
+    border-bottom: 5px solid black;
+    transition: width 0.5s linear 0.5s;
+}
