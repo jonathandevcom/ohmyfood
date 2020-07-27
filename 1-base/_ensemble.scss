@@ -35,12 +35,13 @@ $header-footer-color: rgb(87,156,135);
         flex-wrap: wrap;
         justify-content: space-evenly;
         text-align: center;
-        margin: 5%;
+        
         text-decoration: none;
 
 
+
         .menu_accueil {
-            margin: 5%;
+           
             min-width: 450px;
             max-width: 450px;
             min-height: 600px;
@@ -147,6 +148,9 @@ $header-footer-color: rgb(87,156,135);
         font-family: 'Caveat', cursive;
     }
 }
+.effet{
+    margin:2%;
+}
 
 .effet:hover {
     h2, h3, .fa-music {
@@ -199,5 +203,21 @@ $header-footer-color: rgb(87,156,135);
 
 a {
        text-decoration: none;
+}
 
+@media screen and (max-width:1350px) {
+    #body_index {
+        margin: 4% 2% 20% 2%;
+    }
+    
+}
+@media screen and (max-width:1000px) {
+    section {        
+            justify-content: center;
+        }
+    }
+@media screen and (max-width:600px) {
+    #body_index {
+        margin-bottom: 150px;
+    }
 }

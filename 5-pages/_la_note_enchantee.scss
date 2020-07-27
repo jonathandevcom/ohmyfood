@@ -1,6 +1,8 @@
 ﻿$background-la-note-enchantee: rgb(252,223,219);
 
-
+.container {
+    margin-top:20px;
+}
 .background_color_la_note_enchatee {
     background-color: $background-la-note-enchantee;
     margin: 0 10% 0 10%;
@@ -113,3 +115,19 @@
         transition: width 0.5s linear 0.5s;
     }
 
+@media screen and (max-width:1350px) {
+   
+    .container {
+        margin: 4% 0 20% 0;
+    }
+    .background_color_la_note_enchatee{
+        margin: 2%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .h1_NE {
+        font-size: 1em;
+        width: auto;
+    }
+}

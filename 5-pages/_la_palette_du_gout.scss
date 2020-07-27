@@ -20,27 +20,23 @@
 }
 
 .line_left_PG {
-    clip-path: polygon(0 47%, 1% 53%, 16% 54%, 38% 53%, 64% 54%, 78% 53%, 93% 54%, 100% 54%, 96% 51%, 100% 48%, 94% 48%, 79% 48%, 64% 47%, 51% 48%, 34% 46%, 20% 47%, 8% 46%);
     width: 27%;
-
+    clip-path: polygon(0 47%, 1% 53%, 16% 54%, 38% 53%, 64% 54%, 78% 53%, 93% 54%, 100% 54%, 96% 51%, 100% 48%, 94% 48%, 79% 48%, 64% 47%, 51% 48%, 34% 46%, 20% 47%, 8% 46%);
+    
 }
 
 .line_right_PG {
     clip-path: polygon(100% 47%, 92% 46%, 80% 47%, 66% 46%, 49% 48%, 36% 47%, 21% 48%, 6% 48%, 0 48%, 4% 51%, 0 54%, 7% 54%, 12% 53%, 36% 54%, 62% 53%, 84% 54%, 98% 53%);
     width: 27%;
+
 }
 
-.line_color_1_PG {
-        background-color: rgb(2,40,221);
+.line_color_left_PG {
+    background: linear-gradient(115deg, rgba(61,147,57,1) 0%, rgba(174,225,147,1) 50%, rgba(191,255,126,1) 100%);
 }
 
-.line_color_2_PG {
-    background-color: rgb(6,112,243);
-}
-
-
-.line_color_3_PG {
-    background-color: rgb(34,157,249);
+.line_color_right_PG {
+    background: linear-gradient(115deg, rgba(191,255,126,1) 0%, rgba(174,225,147,1) 50%, rgba(61,147,57,1) 100%);
 }
 
 .titre_center1_PG {
@@ -104,4 +100,22 @@
     width: 205px;
     border-bottom: 5px solid black;
     transition: width 0.5s linear 0.5s;
+}
+@media screen and (max-width:1350px) {
+
+    .container {
+        margin: 4% 0 20% 0;
+    }
+
+    .background_PG {
+        margin: 2%;
+    }
+    }
+
+    @media screen and (max-width:600px){
+        .h1_PG {
+        font-size:1em;
+        width:auto;
+    }
+       
 }

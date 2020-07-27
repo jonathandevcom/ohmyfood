@@ -2,7 +2,8 @@
     margin: 0 10% 0 10%;
     padding: 5%;
     font-family: 'Dancing Script', cursive;
-    font-size:1.2em;
+    font-size: 1.2em;
+    background: rgb(237,239,239);
 }
 
 .h1_DP {
@@ -104,4 +105,22 @@
     width: 240px;
     border-bottom: 5px solid rgb(34,157,249);
     transition: width 0.5s linear 0.5s;
+}
+
+@media screen and (max-width:1350px) {
+
+    .container {
+        margin: 4% 0 20% 0;
+    }
+
+    .background_DP {
+        margin: 2%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .h1_DP {
+        font-size: 1em;
+        width: auto;
+    }
 }

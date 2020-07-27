@@ -28,11 +28,9 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   text-align: center;
-  margin: 5%;
   text-decoration: none;
 }
 #body_index section .menu_accueil {
-  margin: 5%;
   min-width: 450px;
   max-width: 450px;
   min-height: 600px;
@@ -125,6 +123,10 @@
   font-family: "Caveat", cursive;
 }
 
+.effet {
+  margin: 2%;
+}
+
 .effet:hover h2, .effet:hover h3, .effet:hover .fa-music {
   transform: scale(1.25);
   opacity: 0.5;
@@ -173,6 +175,21 @@ a {
   text-decoration: none;
 }
 
+@media screen and (max-width: 1350px) {
+  #body_index {
+    margin: 4% 2% 20% 2%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  section {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  #body_index {
+    margin-bottom: 150px;
+  }
+}
 header {
   font-family: "Archivo Black", sans-serif;
   font-size: 2em;
@@ -193,8 +210,8 @@ footer {
   bottom: 0;
   display: inline-block;
   width: 100%;
-  height: 80px;
-  padding-top: 40px;
+  height: 50px;
+  padding-bottom: 2%;
 }
 footer .button_footer {
   display: flex;
@@ -228,6 +245,12 @@ footer .effet:hover {
     transform: translate3d(4px, 0, 0);
   }
 }
+@media screen and (max-width: 600px) {
+  footer {
+    font-size: 1.5em;
+    padding-bottom: 0;
+  }
+}
 .container {
   margin: 0 10% 10% 10%;
   text-align: center;
@@ -247,6 +270,10 @@ footer .effet:hover {
 .container .line {
   display: flex;
   justify-content: space-between;
+}
+
+.container {
+  margin-top: 20px;
 }
 
 .background_color_la_note_enchatee {
@@ -360,6 +387,21 @@ footer .effet:hover {
   transition: width 0.5s linear 0.5s;
 }
 
+@media screen and (max-width: 1350px) {
+  .container {
+    margin: 4% 0 20% 0;
+  }
+
+  .background_color_la_note_enchatee {
+    margin: 2%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .h1_NE {
+    font-size: 1em;
+    width: auto;
+  }
+}
 .background_PG {
   margin: 0 10% 0 10%;
   padding: 5%;
@@ -382,8 +424,8 @@ footer .effet:hover {
 }
 
 .line_left_PG {
-  clip-path: polygon(0 47%, 1% 53%, 16% 54%, 38% 53%, 64% 54%, 78% 53%, 93% 54%, 100% 54%, 96% 51%, 100% 48%, 94% 48%, 79% 48%, 64% 47%, 51% 48%, 34% 46%, 20% 47%, 8% 46%);
   width: 27%;
+  clip-path: polygon(0 47%, 1% 53%, 16% 54%, 38% 53%, 64% 54%, 78% 53%, 93% 54%, 100% 54%, 96% 51%, 100% 48%, 94% 48%, 79% 48%, 64% 47%, 51% 48%, 34% 46%, 20% 47%, 8% 46%);
 }
 
 .line_right_PG {
@@ -391,16 +433,12 @@ footer .effet:hover {
   width: 27%;
 }
 
-.line_color_1_PG {
-  background-color: #0228dd;
+.line_color_left_PG {
+  background: linear-gradient(115deg, #3d9339 0%, #aee193 50%, #bfff7e 100%);
 }
 
-.line_color_2_PG {
-  background-color: #0670f3;
-}
-
-.line_color_3_PG {
-  background-color: #229df9;
+.line_color_right_PG {
+  background: linear-gradient(115deg, #bfff7e 0%, #aee193 50%, #3d9339 100%);
 }
 
 .titre_center1_PG {
@@ -466,9 +504,25 @@ footer .effet:hover {
   transition: width 0.5s linear 0.5s;
 }
 
+@media screen and (max-width: 1350px) {
+  .container {
+    margin: 4% 0 20% 0;
+  }
+
+  .background_PG {
+    margin: 2%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .h1_PG {
+    font-size: 1em;
+    width: auto;
+  }
+}
 .background_CF {
   margin: 0 10% 0 10%;
   padding: 5%;
+  background: #fff5fe;
   font-family: "Merienda One", cursive;
 }
 
@@ -583,11 +637,27 @@ footer .effet:hover {
   transition: width 0.5s linear 0.5s;
 }
 
+@media screen and (max-width: 1350px) {
+  .container {
+    margin: 4% 0 20% 0;
+  }
+
+  .background_CF {
+    margin: 2%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .h1_CF {
+    font-size: 1em;
+    width: auto;
+  }
+}
 .background_DP {
   margin: 0 10% 0 10%;
   padding: 5%;
   font-family: "Dancing Script", cursive;
   font-size: 1.2em;
+  background: #edefef;
 }
 
 .h1_DP {
@@ -689,6 +759,21 @@ footer .effet:hover {
   transition: width 0.5s linear 0.5s;
 }
 
+@media screen and (max-width: 1350px) {
+  .container {
+    margin: 4% 0 20% 0;
+  }
+
+  .background_DP {
+    margin: 2%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .h1_DP {
+    font-size: 1em;
+    width: auto;
+  }
+}
 #body_mentions {
   margin: 4% 10% 12% 10%;
 }

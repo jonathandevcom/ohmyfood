@@ -1,6 +1,7 @@
 ﻿.background_CF {
     margin: 0 10% 0 10%;
     padding: 5%;
+   background:rgb(255,245,254);
     font-family: 'Merienda One', cursive;
 }
 
@@ -111,4 +112,22 @@
     width: 280px;
     border-bottom: 5px solid rgb(110,76,204);
     transition: width 0.5s linear 0.5s;
+}
+
+@media screen and (max-width:1350px) {
+
+    .container {
+        margin: 4% 0 20% 0;
+    }
+
+    .background_CF {
+        margin: 2%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .h1_CF {
+        font-size: 1em;
+        width: auto;
+    }
 }
