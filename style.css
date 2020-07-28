@@ -31,14 +31,13 @@
   text-decoration: none;
 }
 #body_index section .menu_accueil {
-  min-width: 450px;
-  max-width: 450px;
-  min-height: 600px;
-  max-height: 600px;
+  width: 450px;
+  height: 600px;
   box-shadow: -2px 2px 15px 1px rgba(0, 0, 0, 0.5);
   border: 1px solid #f1f1f1;
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 #body_index .fa-music {
   width: 55px;
@@ -60,7 +59,7 @@
   font-family: "Varela Round", sans-serif;
 }
 #body_index .le_chic_a_la_francaise {
-  font: 1.5em "Merienda One", cursive;
+  font: 1.3em "Merienda One", cursive;
   justify-content: center;
 }
 #body_index .le_chic_a_la_francaise h3 {
@@ -79,7 +78,7 @@
   font-family: "Lora", serif;
 }
 #body_index .le_delice_des_papilles {
-  font: 1.5em "Dancing Script", cursive;
+  font: 1.3em "Dancing Script", cursive;
   justify-content: center;
 }
 #body_index .le_delice_des_papilles h3 {
@@ -128,7 +127,7 @@
 }
 
 .effet:hover h2, .effet:hover h3, .effet:hover .fa-music {
-  transform: scale(1.25);
+  transform: scale(1.15);
   opacity: 0.5;
 }
 
@@ -144,23 +143,17 @@
 }
 .button .one {
   opacity: 0;
-  -webkit-animation: dot 2s infinite;
-  -webkit-animation-delay: 0s;
-  animation: dot 1.3s infinite;
+  animation: dot 2s infinite;
   animation-delay: 0s;
 }
 .button .two {
   opacity: 0;
-  -webkit-animation: dot 2s infinite;
-  -webkit-animation-delay: 0.2s;
-  animation: dot 1.3s infinite;
+  animation: dot 2s infinite;
   animation-delay: 0.3s;
 }
 .button .three {
   opacity: 0;
-  -webkit-animation: dot 2s infinite;
-  -webkit-animation-delay: 0.3s;
-  animation: dot 1.3s infinite;
+  animation: dot 2s infinite;
   animation-delay: 0.6s;
 }
 
@@ -457,8 +450,8 @@ footer .effet:hover {
 
 .titre_center1_PG:hover:before {
   height: 80px;
-  width: 95px;
-  border-bottom: 5px solid black;
+  width: 135px;
+  border-bottom: 5px solid #3d9339;
   transition: width 0.5s linear 0.5s;
 }
 
@@ -478,8 +471,8 @@ footer .effet:hover {
 
 .titre_center2_PG:hover:before {
   height: 80px;
-  width: 160px;
-  border-bottom: 5px solid black;
+  width: 260px;
+  border-bottom: 5px solid #3d9339;
   transition: width 0.5s linear 0.5s;
 }
 
@@ -499,8 +492,8 @@ footer .effet:hover {
 
 .titre_center3_PG:hover:before {
   height: 80px;
-  width: 205px;
-  border-bottom: 5px solid black;
+  width: 280px;
+  border-bottom: 5px solid #3d9339;
   transition: width 0.5s linear 0.5s;
 }
 
