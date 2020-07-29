@@ -12,18 +12,14 @@
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    background: rgb(80,118,234);
     background: linear-gradient(151deg, rgba(2,40,221,1) 0%, rgba(6,112,243,1) 50%, rgba(34,157,249,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
+    background-clip: text;
     color: transparent;
 }
 
 .line_left_DP {
     clip-path: polygon(98% 48%, 100% 52%, 14% 52%, 12% 52%, 9% 51%, 7% 50%, 4% 48%, 2% 45%, 0 41%, 3% 43%, 6% 45%, 9% 47%, 12% 48%, 14% 48%);
     width: 25%;
-    
 }
 
 .line_right_DP {
@@ -38,7 +34,6 @@
 .line_color_2_DP {
     background-color: rgb(6,112,243);
 }
-
 
 .line_color_3_DP {
     background-color: rgb(34,157,249);

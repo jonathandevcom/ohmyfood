@@ -66,11 +66,8 @@
   width: 320px;
   margin-left: auto;
   margin-right: auto;
-  background: #d8852e;
   background: linear-gradient(151deg, #d8852e 0%, #dab8b7 50%, #905bfd 100%);
-  -webkit-background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 #body_index .le_chic_a_la_francaise h2 {
@@ -86,11 +83,8 @@
   width: 320px;
   margin-left: auto;
   margin-right: auto;
-  background: #5076ea;
   background: linear-gradient(151deg, #0228dd 0%, #0670f3 50%, #229df9 100%);
-  -webkit-background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 #body_index .le_delice_des_papilles h2 {
@@ -106,11 +100,8 @@
   width: 320px;
   margin-left: auto;
   margin-right: auto;
-  background: #3d9339;
   background: linear-gradient(115deg, #3d9339 0%, #aee193 50%, #bfff7e 100%);
-  -webkit-background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 #body_index .la_palette_du_gout h2 {
@@ -127,8 +118,9 @@
 }
 
 .effet:hover h2, .effet:hover h3, .effet:hover .fa-music {
-  transform: scale(1.15);
+  transform: scale(1.33);
   opacity: 0.5;
+  padding: 20px;
 }
 
 .button {
@@ -405,14 +397,11 @@ footer .effet:hover {
 .h1_PG {
   text-align: center;
   font-size: 1.3em;
-  width: 450px;
+  width: 500px;
   margin-left: auto;
   margin-right: auto;
-  background: #3d9339;
   background: linear-gradient(115deg, #3d9339 0%, #aee193 50%, #bfff7e 100%);
-  -webkit-background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 
@@ -525,11 +514,8 @@ footer .effet:hover {
   width: 600px;
   margin-left: auto;
   margin-right: auto;
-  background: #d8852e;
   background: linear-gradient(151deg, #d8852e 0%, #dab8b7 50%, #905bfd 100%);
-  -webkit-background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 
@@ -659,11 +645,8 @@ footer .effet:hover {
   width: 500px;
   margin-left: auto;
   margin-right: auto;
-  background: #5076ea;
   background: linear-gradient(151deg, #0228dd 0%, #0670f3 50%, #229df9 100%);
-  -webkit-background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 
@@ -769,6 +752,8 @@ footer .effet:hover {
 }
 #body_mentions {
   margin: 4% 10% 12% 10%;
+  padding: 2%;
+  background: rgba(87, 156, 135, 0.2);
 }
 #body_mentions h2 {
   text-align: center;

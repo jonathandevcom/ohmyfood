@@ -29,7 +29,6 @@ $header-footer-color: rgb(87,156,135);
 #body_index {
     margin: 4% 11% 12% 11%;
 
-
     section {
         display: flex;
         flex-wrap: wrap;
@@ -78,11 +77,8 @@ $header-footer-color: rgb(87,156,135);
             width: 320px;
             margin-left: auto;
             margin-right: auto;
-            background: rgb(216,133,46);
             background: linear-gradient(151deg, rgba(216,133,46,1) 0%, rgba(218,184,183,1) 50%, rgba(144,91,253,1) 100%);
-            -webkit-background-clip: text;
-            -webkit-background-clip: text;
-            -moz-background-clip: text;
+            background-clip: text;
             color: transparent;
         }
 
@@ -101,11 +97,8 @@ $header-footer-color: rgb(87,156,135);
             width: 320px;
             margin-left: auto;
             margin-right: auto;
-            background: rgb(80,118,234);
             background: linear-gradient(151deg, rgba(2,40,221,1) 0%, rgba(6,112,243,1) 50%, rgba(34,157,249,1) 100%);
-            -webkit-background-clip: text;
-            -webkit-background-clip: text;
-            -moz-background-clip: text;
+            background-clip: text;
             color: transparent;
         }
 
@@ -124,11 +117,8 @@ $header-footer-color: rgb(87,156,135);
             width: 320px;
             margin-left: auto;
             margin-right: auto;
-            background: rgb(61,147,57);
             background: linear-gradient(115deg, rgba(61,147,57,1) 0%, rgba(174,225,147,1) 50%, rgba(191,255,126,1) 100%);
-            -webkit-background-clip: text;
-            -webkit-background-clip: text;
-            -moz-background-clip: text;
+            background-clip: text;
             color: transparent;
         }
 
@@ -149,9 +139,9 @@ $header-footer-color: rgb(87,156,135);
 
 .effet:hover {
     h2, h3, .fa-music {
-        transform: scale(1.15);
+        transform: scale(1.33);
         opacity: 0.5;
- 
+        padding:20px;
          }
 }
 

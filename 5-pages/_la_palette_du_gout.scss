@@ -8,27 +8,22 @@
 .h1_PG {
     text-align: center;
     font-size: 1.3em;
-    width: 450px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
-    background: rgb(61,147,57);
     background: linear-gradient(115deg, rgba(61,147,57,1) 0%, rgba(174,225,147,1) 50%, rgba(191,255,126,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
+    background-clip: text;
     color: transparent;
 }
 
 .line_left_PG {
     width: 27%;
     clip-path: polygon(0 47%, 1% 53%, 16% 54%, 38% 53%, 64% 54%, 78% 53%, 93% 54%, 100% 54%, 96% 51%, 100% 48%, 94% 48%, 79% 48%, 64% 47%, 51% 48%, 34% 46%, 20% 47%, 8% 46%);
-    
 }
 
 .line_right_PG {
     clip-path: polygon(100% 47%, 92% 46%, 80% 47%, 66% 46%, 49% 48%, 36% 47%, 21% 48%, 6% 48%, 0 48%, 4% 51%, 0 54%, 7% 54%, 12% 53%, 36% 54%, 62% 53%, 84% 54%, 98% 53%);
     width: 27%;
-
 }
 
 .line_color_left_PG {
