@@ -404,6 +404,9 @@ footer .effet:hover {
   width: 500px;
   margin-left: auto;
   margin-right: auto;
+}
+.h1_PG h1 {
+  display: block;
   background: linear-gradient(115deg, #3d9339 0%, #aee193 50%, #bfff7e 100%);
   background: -webkit-gradient(left, #3d9339 0%, #aee193 50%, #bfff7e 100%);
   -webkit-background-clip: text;
@@ -522,6 +525,9 @@ footer .effet:hover {
   width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+.h1_CF h1 {
+  display: block;
   background: linear-gradient(151deg, #d8852e 0%, #dab8b7 50%, #905bfd 100%);
   background: -webkit-gradient left, #d8852e 0%, #dab8b7 50%, #905bfd 100%;
   -webkit-background-clip: text;
@@ -657,6 +663,9 @@ footer .effet:hover {
   width: 500px;
   margin-left: auto;
   margin-right: auto;
+}
+.h1_DP h1 {
+  display: block;
   background: linear-gradient(151deg, #0228dd 0%, #0670f3 50%, #229df9 100%);
   background: -webkit-gradient(left, #0228dd 0%, #0670f3 50%, #229df9 100%);
   -webkit-background-clip: text;

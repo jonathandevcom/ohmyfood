@@ -12,10 +12,15 @@
     width: 600px;
     margin-left: auto;
     margin-right: auto;
-    background: linear-gradient(151deg, rgba(216,133,46,1) 0%, rgba(218,184,183,1) 50%, rgba(144,91,253,1) 100%);
+
+    h1{
+        display:block;  
+        background: linear-gradient(151deg, rgba(216,133,46,1) 0%, rgba(218,184,183,1) 50%, rgba(144,91,253,1) 100%);
     background: -webkit-gradient (left, rgba(216,133,46,1) 0%, rgba(218,184,183,1) 50%, rgba(144,91,253,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    }
+  
 }
 
 .line_left_CF {

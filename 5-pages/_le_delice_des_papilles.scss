@@ -13,10 +13,15 @@
     width: 500px;
     margin-left: auto;
     margin-right: auto;
+
+    h1{
+    display:block;
     background: linear-gradient(151deg, rgba(2,40,221,1) 0%, rgba(6,112,243,1) 50%, rgba(34,157,249,1) 100%);
     background: -webkit-gradient(left, rgba(2,40,221,1) 0%, rgba(6,112,243,1) 50%, rgba(34,157,249,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    }
+    
 }
 
 .line_left_DP {
