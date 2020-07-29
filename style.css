@@ -406,8 +406,8 @@ footer .effet:hover {
   width: 500px;
   margin-left: auto;
   margin-right: auto;
-  background: linear-gradient(115deg, #3d9339 0%, #aee193 50%, #bfff7e 100%);
-  background: -webkit-linear-gradient(left, #3d9339 0%, #aee193 50%, #bfff7e 100%);
+  background-image: linear-gradient(115deg, #3d9339 0%, #aee193 50%, #bfff7e 100%);
+  background-image: -webkit-linear-gradient(left, #3d9339 0%, #aee193 50%, #bfff7e 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -416,10 +416,12 @@ footer .effet:hover {
 
 .line_left_PG {
   width: 27%;
+  -webkit-clip-path: polygon(0 47%, 1% 53%, 16% 54%, 38% 53%, 64% 54%, 78% 53%, 93% 54%, 100% 54%, 96% 51%, 100% 48%, 94% 48%, 79% 48%, 64% 47%, 51% 48%, 34% 46%, 20% 47%, 8% 46%);
   clip-path: polygon(0 47%, 1% 53%, 16% 54%, 38% 53%, 64% 54%, 78% 53%, 93% 54%, 100% 54%, 96% 51%, 100% 48%, 94% 48%, 79% 48%, 64% 47%, 51% 48%, 34% 46%, 20% 47%, 8% 46%);
 }
 
 .line_right_PG {
+  -webkit-clip-path: polygon(100% 47%, 92% 46%, 80% 47%, 66% 46%, 49% 48%, 36% 47%, 21% 48%, 6% 48%, 0 48%, 4% 51%, 0 54%, 7% 54%, 12% 53%, 36% 54%, 62% 53%, 84% 54%, 98% 53%);
   clip-path: polygon(100% 47%, 92% 46%, 80% 47%, 66% 46%, 49% 48%, 36% 47%, 21% 48%, 6% 48%, 0 48%, 4% 51%, 0 54%, 7% 54%, 12% 53%, 36% 54%, 62% 53%, 84% 54%, 98% 53%);
   width: 27%;
 }
@@ -523,8 +525,8 @@ footer .effet:hover {
   width: 600px;
   margin-left: auto;
   margin-right: auto;
-  background: linear-gradient(151deg, #d8852e 0%, #dab8b7 50%, #905bfd 100%);
-  background: -webkit-linear-gradient left, #d8852e 0%, #dab8b7 50%, #905bfd 100%;
+  background-image: linear-gradient(151deg, #d8852e 0%, #dab8b7 50%, #905bfd 100%);
+  background-image: -webkit-linear-gradient left, #d8852e 0%, #dab8b7 50%, #905bfd 100%;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -532,11 +534,13 @@ footer .effet:hover {
 }
 
 .line_left_CF {
+  -webkit-clip-path: polygon(0% 50%, 73% 43%, 84% 47%, 100% 50%, 84% 53%, 74% 57%);
   clip-path: polygon(0% 50%, 73% 43%, 84% 47%, 100% 50%, 84% 53%, 74% 57%);
   width: 25%;
 }
 
 .line_right_CF {
+  -webkit-clip-path: polygon(0 50%, 16% 47%, 27% 43%, 100% 50%, 27% 57%, 16% 53%);
   clip-path: polygon(0 50%, 16% 47%, 27% 43%, 100% 50%, 27% 57%, 16% 53%);
   width: 25%;
 }
@@ -657,8 +661,8 @@ footer .effet:hover {
   width: 500px;
   margin-left: auto;
   margin-right: auto;
-  background: linear-gradient(151deg, #0228dd 0%, #0670f3 50%, #229df9 100%);
-  background: -webkit-linear-gradient(left, #0228dd 0%, #0670f3 50%, #229df9 100%);
+  background-image: linear-gradient(151deg, #0228dd 0%, #0670f3 50%, #229df9 100%);
+  background-image: -webkit-linear-gradient(left, #0228dd 0%, #0670f3 50%, #229df9 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -666,11 +670,13 @@ footer .effet:hover {
 }
 
 .line_left_DP {
+  -webkit-clip-path: polygon(98% 48%, 100% 52%, 14% 52%, 12% 52%, 9% 51%, 7% 50%, 4% 48%, 2% 45%, 0 41%, 3% 43%, 6% 45%, 9% 47%, 12% 48%, 14% 48%);
   clip-path: polygon(98% 48%, 100% 52%, 14% 52%, 12% 52%, 9% 51%, 7% 50%, 4% 48%, 2% 45%, 0 41%, 3% 43%, 6% 45%, 9% 47%, 12% 48%, 14% 48%);
   width: 25%;
 }
 
 .line_right_DP {
+  -webkit-clip-path: polygon(0 52%, 86% 52%, 88% 52%, 91% 51%, 93% 50%, 96% 48%, 98% 45%, 100% 41%, 97% 43%, 94% 45%, 91% 47%, 88% 48%, 86% 48%, 2% 48%);
   clip-path: polygon(0 52%, 86% 52%, 88% 52%, 91% 51%, 93% 50%, 96% 48%, 98% 45%, 100% 41%, 97% 43%, 94% 45%, 91% 47%, 88% 48%, 86% 48%, 2% 48%);
   width: 25%;
 }

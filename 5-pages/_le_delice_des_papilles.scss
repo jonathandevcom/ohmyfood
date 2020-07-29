@@ -12,8 +12,8 @@
     width: 500px;
     margin-left: auto;
     margin-right: auto;
-    background: linear-gradient(151deg, rgba(2,40,221,1) 0%, rgba(6,112,243,1) 50%, rgba(34,157,249,1) 100%);
-    background: -webkit-linear-gradient(left, rgba(2,40,221,1) 0%, rgba(6,112,243,1) 50%, rgba(34,157,249,1) 100%);
+    background-image: linear-gradient(151deg, rgba(2,40,221,1) 0%, rgba(6,112,243,1) 50%, rgba(34,157,249,1) 100%);
+    background-image: -webkit-linear-gradient(left, rgba(2,40,221,1) 0%, rgba(6,112,243,1) 50%, rgba(34,157,249,1) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -21,11 +21,13 @@
 }
 
 .line_left_DP {
+    -webkit-clip-path: polygon(98% 48%, 100% 52%, 14% 52%, 12% 52%, 9% 51%, 7% 50%, 4% 48%, 2% 45%, 0 41%, 3% 43%, 6% 45%, 9% 47%, 12% 48%, 14% 48%);
     clip-path: polygon(98% 48%, 100% 52%, 14% 52%, 12% 52%, 9% 51%, 7% 50%, 4% 48%, 2% 45%, 0 41%, 3% 43%, 6% 45%, 9% 47%, 12% 48%, 14% 48%);
     width: 25%;
 }
 
 .line_right_DP {
+    -webkit-clip-path: polygon(0 52%, 86% 52%, 88% 52%, 91% 51%, 93% 50%, 96% 48%, 98% 45%, 100% 41%, 97% 43%, 94% 45%, 91% 47%, 88% 48%, 86% 48%, 2% 48%);
     clip-path: polygon(0 52%, 86% 52%, 88% 52%, 91% 51%, 93% 50%, 96% 48%, 98% 45%, 100% 41%, 97% 43%, 94% 45%, 91% 47%, 88% 48%, 86% 48%, 2% 48%);
     width: 25%;
 }
