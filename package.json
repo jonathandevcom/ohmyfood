@@ -1,0 +1,21 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "C:\\formation\\projet3\\ohmyfood",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "prefix": "postcss C:/formation/projet3/ohmyfood/style.css --use autoprefixer -d C:/formation/projet3/ohmyfood/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathandevcom/ohmyfood.git"
+  },
+  "author": "",
+  "license": "ISC",
+
+  "bugs": {
+    "url": "https://github.com/jonathandevcom/ohmyfood/issues"
+  },
+  "homepage": "https://github.com/jonathandevcom/ohmyfood#readme"
+}
