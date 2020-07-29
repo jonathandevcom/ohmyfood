@@ -398,6 +398,7 @@ footer .effet:hover {
 }
 
 .h1_PG {
+  display: block;
   text-align: center;
   font-size: 1.3em;
   width: 500px;
@@ -515,6 +516,7 @@ footer .effet:hover {
 }
 
 .h1_CF {
+  display: block;
   text-align: center;
   font-size: 1.3em;
   width: 600px;

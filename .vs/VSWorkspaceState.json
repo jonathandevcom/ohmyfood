@@ -7,8 +7,9 @@
     "\\4_components",
     "\\5-pages",
     "\\6-themes",
-    "\\7-vendors"
+    "\\7-vendors",
+    "\\prefixed"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\5-pages\\_mentions_légales.scss",
   "PreviewInSolutionExplorer": false
 }
