@@ -69,6 +69,7 @@
   background: linear-gradient(151deg, #d8852e 0%, #dab8b7 50%, #905bfd 100%);
   -webkit-background-clip: text;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
 }
 #body_index .le_chic_a_la_francaise h2 {
@@ -87,6 +88,7 @@
   background: linear-gradient(151deg, #0228dd 0%, #0670f3 50%, #229df9 100%);
   background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
 }
 #body_index .le_delice_des_papilles h2 {
@@ -105,6 +107,7 @@
   background: linear-gradient(115deg, #3d9339 0%, #aee193 50%, #bfff7e 100%);
   background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
 }
 #body_index .la_palette_du_gout h2 {
@@ -404,8 +407,10 @@ footer .effet:hover {
   margin-left: auto;
   margin-right: auto;
   background: linear-gradient(115deg, #3d9339 0%, #aee193 50%, #bfff7e 100%);
+  background: -webkit-linear-gradient(left, #3d9339 0%, #aee193 50%, #bfff7e 100%);
   background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
 }
 
@@ -519,8 +524,10 @@ footer .effet:hover {
   margin-left: auto;
   margin-right: auto;
   background: linear-gradient(151deg, #d8852e 0%, #dab8b7 50%, #905bfd 100%);
+  background: -webkit-linear-gradient left, #d8852e 0%, #dab8b7 50%, #905bfd 100%;
   background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
 }
 
@@ -651,8 +658,10 @@ footer .effet:hover {
   margin-left: auto;
   margin-right: auto;
   background: linear-gradient(151deg, #0228dd 0%, #0670f3 50%, #229df9 100%);
+  background: -webkit-linear-gradient(left, #0228dd 0%, #0670f3 50%, #229df9 100%);
   background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
 }
 
