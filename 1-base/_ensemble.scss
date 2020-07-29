@@ -43,7 +43,7 @@ $header-footer-color: rgb(87,156,135);
             border: 1px solid rgb(241,241,241);
             display: flex;
             flex-direction: column;
-            padding:0;
+            padding: 0;
         }
     }
 
@@ -78,6 +78,7 @@ $header-footer-color: rgb(87,156,135);
             margin-left: auto;
             margin-right: auto;
             background: linear-gradient(151deg, rgba(216,133,46,1) 0%, rgba(218,184,183,1) 50%, rgba(144,91,253,1) 100%);
+            -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
         }
@@ -99,6 +100,7 @@ $header-footer-color: rgb(87,156,135);
             margin-right: auto;
             background: linear-gradient(151deg, rgba(2,40,221,1) 0%, rgba(6,112,243,1) 50%, rgba(34,157,249,1) 100%);
             background-clip: text;
+            -webkit-background-clip: text;
             color: transparent;
         }
 
@@ -119,6 +121,7 @@ $header-footer-color: rgb(87,156,135);
             margin-right: auto;
             background: linear-gradient(115deg, rgba(61,147,57,1) 0%, rgba(174,225,147,1) 50%, rgba(191,255,126,1) 100%);
             background-clip: text;
+            -webkit-background-clip: text;
             color: transparent;
         }
 
