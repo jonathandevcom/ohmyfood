@@ -56,6 +56,7 @@ $header-footer-color: rgb(87,156,135);
         background: linear-gradient(to right, #f04a5e 0%, #f8a183 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        text-align:center;
     }
 
     .la_note_enchantee {
@@ -145,6 +146,7 @@ $header-footer-color: rgb(87,156,135);
         transform: scale(1.33);
         opacity: 0.5;
         padding:20px;
+        transition-duration:0.6s;
          }
 }
 

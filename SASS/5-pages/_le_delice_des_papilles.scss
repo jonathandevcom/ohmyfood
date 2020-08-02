@@ -6,7 +6,7 @@
     background: rgb(237,239,239);
 }
 
-.h1_DP {
+.h2_DP {
     display:block;
     text-align: center;
     font-size: 1.6em;
@@ -14,7 +14,7 @@
     margin-left: auto;
     margin-right: auto;
 
-    h1{
+    h2{
     display:block;
     background: linear-gradient(151deg, rgba(2,40,221,1) 0%, rgba(6,112,243,1) 50%, rgba(34,157,249,1) 100%);
     background: -webkit-gradient(left, rgba(2,40,221,1) 0%, rgba(6,112,243,1) 50%, rgba(34,157,249,1) 100%);
@@ -123,7 +123,7 @@
 }
 
 @media screen and (max-width:600px) {
-    .h1_DP {
+    .h2_DP {
         font-size: 1em;
         width: auto;
     }

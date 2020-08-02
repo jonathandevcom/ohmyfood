@@ -48,6 +48,7 @@
   background: linear-gradient(to right, #f04a5e 0%, #f8a183 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
 }
 #body_index .la_note_enchantee {
   background-color: #fcdfdb;
@@ -124,6 +125,7 @@
   transform: scale(1.33);
   opacity: 0.5;
   padding: 20px;
+  transition-duration: 0.6s;
 }
 
 .button {
@@ -277,7 +279,7 @@ footer .effet:hover {
   margin-left: 0;
   margin-right: 0;
 }
-.background_color_la_note_enchatee .h1_NE {
+.background_color_la_note_enchatee .h2_NE {
   text-align: center;
   font-size: 1.5em;
 }
@@ -385,7 +387,7 @@ footer .effet:hover {
   }
 }
 @media screen and (max-width: 600px) {
-  .h1_NE {
+  .h2_NE {
     font-size: 1em;
     width: auto;
   }
@@ -397,7 +399,7 @@ footer .effet:hover {
   font-size: 1.2em;
 }
 
-.h1_PG {
+.h2_PG {
   display: block;
   text-align: center;
   font-size: 1.3em;
@@ -405,7 +407,7 @@ footer .effet:hover {
   margin-left: auto;
   margin-right: auto;
 }
-.h1_PG h1 {
+.h2_PG h2 {
   display: block;
   background: linear-gradient(115deg, #3d9339 0%, #aee193 50%, #bfff7e 100%);
   background: -webkit-gradient(left, #3d9339 0%, #aee193 50%, #bfff7e 100%);
@@ -506,7 +508,7 @@ footer .effet:hover {
   }
 }
 @media screen and (max-width: 600px) {
-  .h1_PG {
+  .h2_PG {
     font-size: 1em;
     width: auto;
   }
@@ -518,7 +520,7 @@ footer .effet:hover {
   font-family: "Merienda One", cursive;
 }
 
-.h1_CF {
+.h2_CF {
   display: block;
   text-align: center;
   font-size: 1.3em;
@@ -526,7 +528,7 @@ footer .effet:hover {
   margin-left: auto;
   margin-right: auto;
 }
-.h1_CF h1 {
+.h2_CF h2 {
   display: block;
   background: linear-gradient(151deg, #d8852e 0%, #dab8b7 50%, #905bfd 100%);
   background: -webkit-gradient left, #d8852e 0%, #dab8b7 50%, #905bfd 100%;
@@ -643,7 +645,7 @@ footer .effet:hover {
   }
 }
 @media screen and (max-width: 600px) {
-  .h1_CF {
+  .h2_CF {
     font-size: 1em;
     width: auto;
   }
@@ -656,7 +658,7 @@ footer .effet:hover {
   background: #edefef;
 }
 
-.h1_DP {
+.h2_DP {
   display: block;
   text-align: center;
   font-size: 1.6em;
@@ -664,7 +666,7 @@ footer .effet:hover {
   margin-left: auto;
   margin-right: auto;
 }
-.h1_DP h1 {
+.h2_DP h2 {
   display: block;
   background: linear-gradient(151deg, #0228dd 0%, #0670f3 50%, #229df9 100%);
   background: -webkit-gradient(left, #0228dd 0%, #0670f3 50%, #229df9 100%);
@@ -769,7 +771,7 @@ footer .effet:hover {
   }
 }
 @media screen and (max-width: 600px) {
-  .h1_DP {
+  .h2_DP {
     font-size: 1em;
     width: auto;
   }
